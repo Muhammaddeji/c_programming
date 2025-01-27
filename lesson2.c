@@ -2,10 +2,12 @@
 
 int main()
 {
-	int x =10;
-	
-	int y = x / 2;
-	
-	printf("%i\n",y);
+	int radius; //The distance from outside to center of the circle
+	printf("please enter a radius; ");	   
+	scanf("%i", &radius); //address-of operator
+		
+		    
+	double  area = 3.14159 *  (radius * radius);
+	printf("The area of a circle with %i radius is %f\n",radius, area);
 	return 0;
 }	
